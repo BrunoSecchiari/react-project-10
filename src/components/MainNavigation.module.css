@@ -15,3 +15,9 @@
   text-decoration: none;
   color: var(--color-primary-400);
 }
+
+.list a.active,
+.list a:hover {
+  color: var(--color-primary-800);
+  transition: all 0.2s;
+}
